@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./sass/style.css">
+  <title>Oculus</title>
+</head>
+<body>
+ <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <button class="menu__btn-open">
+          <img src="./assets/images/icons/btn-open.svg" alt="button">
+        </button>
+        <dialog class="dialog">
+          <button class="menu__btn-close">
+            <img src="./assets/images/icons/btn-close.svg" alt="button">
+          </button>
+          <ul class="nav__menu menu-mobile">
+            <li class="nav__menu_item">
+              <a href="#" class="nav__menu_link">shop</a>
+            </li>
+            <li class="nav__menu_item">
+              <a href="#" class="nav__menu_link">games</a>
+            </li>
+            <li class="nav__menu_item">
+              <a href="#" class="nav__menu_link">metaverse</a>
+            </li>
+          </ul>
+        </dialog>
+        <ul class="nav__menu menu-laptop">
+          <li class="nav__menu_item">
+            <a href="#" class="nav__menu_link">shop</a>
+          </li>
+          <li class="nav__menu_item">
+            <a href="#" class="nav__menu_link">games</a>
+          </li>
+          <li class="nav__menu_item">
+            <a href="#" class="nav__menu_link">metaverse</a>
+          </li>
+        </ul>
+        <img src="./assets/images/logo.svg" alt="Logo" class="logo nav__logo">
+        <div class="basket">
+          <a href="" class="basket__link">
+            <img src="./assets/images/icons/bag.svg" alt="Basket">
+            <span>5</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+ <main>
+    <section class="top">
+      <div class="container">
+        <h1 class="top__title">Meta Quest 2</h1>
+        <h2 class="top__subtitle">Get an Elite Strap free</h2>
+        <p class="top__text">For a limited time only,
+            save $59.99 USD. Offer ends 1/19/23
+        </p>
+        <button class="btn">
+          <span class="btn_buy">BUY NOW</span>
+          <span class="btn_price">399,99 USD</span>
+        </button>
+        <p class="top__text top__text_bottom">Meta Quest 2 is for ages 13+</p>
+      </div>
+    </section>
+    <section class="features">
+      <div class="container features__container">
+        <div class="wrapper__text">
+          <h4 class="features__title">PRODUCT FEATURES</h4>
+          <p class="gradient__text">Easy to set up and safe to use</p>
+        </div>
+        <div class="tabs">
+          <div class="tabs__btn">
+              <button class="tabs__btn-item tabs__btn-item--active" data-button="content-1">01 Graphics</button>
+              <button class="tabs__btn-item" data-button="content-2">02 Controls</button>
+              <button class="tabs__btn-item" data-button="content-3">03 Set up your play area</button>
+              <button class="tabs__btn-item" data-button="content-4">04 Processor</button>
+              <button class="tabs__btn-item" data-button="content-5">05 Gardian activity</button>
+              <button class="tabs__btn-item" data-button="content-6">06 Headset casting</button>
+          </div>
+          <div class="tabs__content">
+            <div class="tabs__content-item tabs__content-item--active " id="content-1">
+              <img class="content-item__img" src="./assets/images/features/world.png" alt="Oculus">
+              <div class="tabs__content-box">
+                <h3>Graphics</h3>
+                <p>With 1832 x 1920 pixels per eye,
+                   everything from multiplayer games and productivity apps
+                   to 360 0 videos look beyond incredible
+                </p>
+                <div class="video video-one">
+                  <button class="video__btn" data-button="modal-one">
+                    <img src="./assets/images/features/video.svg" alt="video">
+                  </button>
+                  <span>Watch the video</span>
+                  <dialog class="modal-video" id="modal-one">
+                    <div class="modal__container">
+                      <iframe class="modal__iframe" src="https://www.youtube.com/embed/60yP8f5E-B4?si=A4AWLCX2sVbgIziz" title="YouTube video player"
+                              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                      </iframe>
+                    <button class="menu__btn-close modal-close" data-button="modal-one">
+                      <img src="./assets/images/icons/btn-close.svg" alt="button">
+                    </button>
+                    </div>
+                  </dialog>
+                </div>
+              </div>
+            </div>
+            <div class="tabs__content-item" id="content-2">
+              <img class="content-item__img" src="./assets/images/features/controls.jpg" alt="Oculus">
+              <div class="tabs__content-box">
+                <h3>Controls</h3>
+                <p>Media from any 360 camera can be viewed in a Meta Quest 2 headset. Using SideQuest,
+                  the Android File Transfer app, OpenMTP, or simply browsing the directory structure from a PC,
+                  copy content to the headset for viewing in Meta Quest TV or a third party media viewer.
+                </p>
+                <div class="video video-two">
+                  <button class="video__btn" data-button="modal-two">
+                    <img src="./assets/images/features/video.svg" alt="video">
+                  </button>
+                  <span>Watch the video</span>
+                  <dialog class="modal-video" id="modal-two">
+                    <div class="modal__container">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/1jKBywegGcI?si=wdXFba0NJON5tIv9" title="YouTube video player"
+                              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                      </iframe>
+                    <button class="menu__btn-close modal-close" data-button="modal-two">
+                      <img src="./assets/images/icons/btn-close.svg" alt="button">
+                    </button>
+                    </div>
+                  </dialog>
+                </div>
+              </div>
+            </div>
+            <div class="tabs__content-item" id="content-3">
+              <img class="content-item__img" src="./assets/images/features/6.jpg" alt="Oculus">
+              <div class="tabs__content-box">
+                <h3>Set up your play area</h3>
+                <p>With 1832 x 1920 pixels per eye,
+                  everything from multiplayer games and productivity apps
+                  to 360 0 videos look beyond incredible
+                </p>
+                <div class="video video-three">
+                  <button class="video__btn" data-button="modal-three">
+                    <img src="./assets/images/features/video.svg" alt="video">
+                  </button>
+                  <span>Watch the video</span>
+                  <dialog class="modal-video" id="modal-three">
+                    <div class="modal__container">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/JF9pbXpe2Wk?si=DF4e1mq3bmA2AEU8"
+                              title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                              encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                      </iframe>
+                    <button class="menu__btn-close modal-close" data-button="modal-three">
+                      <img src="./assets/images/icons/btn-close.svg" alt="button">
+                    </button>
+                    </div>
+                  </dialog>
+                </div>
+              </div>
+            </div>
+            <div class="tabs__content-item" id="content-4">
+              <img class="content-item__img" src="./assets/images/features/7.jpg" alt="Oculus">
+              <div class="tabs__content-box">
+                <h3>Processor</h3>
+                <p>Media from any 360 camera can be viewed in a Meta Quest 2 headset. Using SideQuest,
+                  the Android File Transfer app, OpenMTP, or simply browsing the directory structure from a PC,
+                  copy content to the headset for viewing in Meta Quest TV or a third party media viewer.
+                </p>
+                <div class="video video-four">
+                  <button class="video__btn" data-button="modal-four">
+                    <img src="./assets/images/features/video.svg" alt="video">
+                  </button>
+                  <span>Watch the video</span>
+                  <dialog class="modal-video" id="modal-four">
+                    <div class="modal__container">
+                      <iframe width="960" height="715" src="https://www.youtube.com/embed/ATVGl9wOJsM?si=g7lS67X4Yj-G-6Ne" title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                    <button class="menu__btn-close modal-close" data-button="modal-four">
+                      <img src="./assets/images/icons/btn-close.svg" alt="button">
+                    </button>
+                    </div>
+                  </dialog>
+                </div>
+              </div>
+            </div>
+            <div class="tabs__content-item" id="content-5">
+              <img class="content-item__img" src="./assets/images/features/5.jpg" alt="Oculus">
+              <div class="tabs__content-box">
+                <h3>Gardian activity</h3>
+                <p>Media from any 360 camera can be viewed in a Meta Quest 2 headset. Using SideQuest,
+                  the Android File Transfer app, OpenMTP, or simply browsing the directory structure from a PC,
+                  copy content to the headset for viewing in Meta Quest TV or a third party media viewer.
+                </p>
+                <div class="video video-five">
+                  <button class="video__btn" data-button="modal-five">
+                    <img src="./assets/images/features/video.svg" alt="video">
+                  </button>
+                  <span>Watch the video</span>
+                  <dialog class="modal-video" id="modal-five">
+                    <div class="modal__container">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/ivwQ2DUjcHI?si=rTy3f40oRpmOXcs1"
+                              title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                              encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                      </iframe>
+                    <button class="menu__btn-close modal-close" data-button="modal-five">
+                      <img src="./assets/images/icons/btn-close.svg" alt="button">
+                    </button>
+                    </div>
+                  </dialog>
+                </div>
+              </div>
+            </div>
+            <div class="tabs__content-item" id="content-6">
+              <img class="content-item__img" src="./assets/images/features/3.jpg" alt="Oculus">
+              <div class="tabs__content-box">
+                <h3>Headset casting</h3>
+                <p>Media from any 360 camera can be viewed in a Meta Quest 2 headset. Using SideQuest,
+                  the Android File Transfer app, OpenMTP, or simply browsing the directory structure from a PC,
+                  copy content to the headset for viewing in Meta Quest TV or a third party media viewer.
+                </p>
+                <div class="video video-six">
+                  <button class="video__btn" data-button="modal-six">
+                    <img src="./assets/images/features/video.svg" alt="video">
+                  </button>
+                 <span>Watch the video</span>
+                 <dialog class="modal-video" id="modal-six">
+                  <div class="modal__container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/nH3Wv3qr4EM?si=Dql_qMQmKw29e8Md"
+                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                            encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                  <button class="menu__btn-close modal-close " data-button="modal-six">
+                    <img src="./assets/images/icons/btn-close.svg" alt="button">
+                  </button>
+                  </div>
+                </dialog>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="games">
+      <div class="container">
+        <h4 class="games__title">games</h4>
+        <div class="games__inner">
+          <div class="block-information">
+            <p class="gradient__text">It’s all fun and games</p>
+            <p class="block-information__text">
+              Discover new adventures, master epic challenges or revisit
+              classic moments in your favourite games and experiences
+            </p>
+            <a class="block-information__link-btn">
+              <span href="#">SEE ALL GAMES</span>
+            </a>
+          </div>
+            <article class="games-item">
+              <img class="games-item__img" src="./assets/images/games/nomad.png" alt="image game">
+              <h3 class="games-item__title">Blade & Sorcery: Nomad</h3>
+              <p class="games-item__text">Step into a medieval fantasy sandbox that uses phisics to serve up some of the most realistic combat in VR</p>
+              <details class="games-item__link details">
+                <summary>see more</summary>
+                <h4 class="details__item-title">Game rating:</h4>
+                <div class="details__wrapper">
+                  <div class="details__item">
+                    <p class="details__item-text">Live</p>
+                    <div class="container__images">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                    </div>
+                  </div>
+                  <div class="details__item">
+                    <p class="details__item-text">Create</p>
+                  <div class="container__images">
+                    <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                    <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                    <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                    <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                    <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                  </div>
+                  </div>
+                  <div class="details__item">
+                    <p class="details__item-text">Love</p>
+                    <div class="container__images">
+                        <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                        <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                    </div>
+                  </div>
+                  <div class="details__item">
+                    <p class="details__item-text">Dream</p>
+                    <div class="container__images">
+                        <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                        <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                        <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                        <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                    </div>
+                  </div>
+                </div>
+              </details>
+            </article>
+            <article class="games-item">
+              <img class="games-item__img" src="./assets/images/games/popular.png" alt="image game">
+              <h3 class="games-item__title">Population: One</h3>
+              <p class="games-item__text">Climb anything. Fight everywhere. Experience battle royale only possible in VR</p>
+              <details class="games-item__link details">
+                <summary>see more</summary>
+                <h4 class="details__item-title">Game rating</h4>
+                <div class="details__wrapper">
+                  <div class="details__item">
+                    <p class="details__item-text">Live</p>
+                    <div class="container__images">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                    </div>
+                  </div>
+                  <div class="details__item">
+                    <p class="details__item-text">Create</p>
+                    <div class="container__images">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                    </div>
+                  </div>
+                  <div class="details__item">
+                    <p class="details__item-text">Love</p>
+                    <div class="container__images">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                    </div>
+                  </div>
+                  <div class="details__item">
+                    <p class="details__item-text">Dream</p>
+                    <div class="container__images">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                    </div>
+                  </div>
+                </div>
+              </details>
+            </article>
+            <article class="games-item">
+              <img class="games-item__img" src="./assets/images/games/super.png" alt="image game">
+              <h3 class="games-item__title">Supernatural</h3>
+              <p class="games-item__text">Box, Flow, Meditate and Stretch with real coaches in stunning destinations from around the world. Enjoy new workouts every day.</p>
+              <details class="games-item__link details">
+                <summary>see more</summary>
+                <h4 class="details__item-title">Game rating</h4>
+                <div class="details__wrapper">
+                  <div class="details__item">
+                    <p class="details__item-text">Live</p>
+                    <div class="container__images">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                    </div>
+                  </div>
+                  <div class="details__item">
+                    <p class="details__item-text">Create</p>
+                    <div class="container__images">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                    </div>
+                  </div>
+                  <div class="details__item">
+                    <p class="details__item-text">Love</p>
+                    <div class="container__images">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                    </div>
+                  </div>
+                  <div class="details__item">
+                    <p class="details__item-text">Dream</p>
+                    <div class="container__images">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                      <img class="details__item-image" src="./assets/images/games/star_32.svg" alt="snowflakes">
+                    </div>
+                  </div>
+                </div>
+              </details>
+            </article>
+        </div>
+      </div>
+    </section>
+    <section class="promo">
+      <img class="running-line" src="./assets/images/backgrounds/bg-oculus.svg" alt="running-line">
+      <div class="container promo__container">
+        <img class="promo__img" src="./assets/images/included/oculus.png" alt="Oculus">
+        <button class="btn promo__btn">
+          <span class="btn_buy promo__btn_buy">BUY NOW</span>
+          <span class="btn_price promo__btn_price">399,99 USD</span>
+        </button>
+        <p class="promo__text">Meta Quest 2 is for ages 13+</p>
+      </div>
+    </section>
+    <section class="equipment">
+      <div class="container">
+        <h4 class="equipment__title">IN THE BOX</h4>
+        <div class="equipment__box">
+          <div class="equipment__box_item box__item_one">
+            <img class="equipment__box_img" src="./assets/images/included/4.png" alt="VR Headset">
+            <p class="equipment__box_text">VR Headset</p>
+          </div>
+          <div class="equipment__box_item box__item_two">
+            <img class="equipment__box_img" src="./assets/images/included/3.png" alt="Touch Controllers">
+            <p class="equipment__box_text">Two Touch Controllers & AA Batteries</p>
+          </div>
+          <div class="equipment__box_item box__item_three">
+            <p class="gradient__text equipment__gradient-text">What's included</p>
+          </div>
+          <div class="equipment__box_item box__item_four">
+            <img class="equipment__box_img" src="./assets/images/included/2.png" alt="Charging Cable">
+            <p class="equipment__box_text">Charging Cable & Power Adapter</p>
+          </div>
+          <div class="equipment__box_item box__item_five">
+            <img class="equipment__box_img" src="./assets/images/included/1.png" alt="Glasses Spacer">
+            <p class="equipment__box_text">Glasses Spacer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <aside class="show-metaverse">
+      <div class="container show-metaverse__container">
+        <p class="show-metaverse__text">METAVERSE LOADING…</p>
+        <a href="https://www.youtube.com/embed/7DEVfUk2zCk?si=nB2Ue6hS7QHp7E4m" class="show-metaverse__link-btn"><span>go</span></a>
+      </div>
+    </aside>
+    <section class="accessories">
+      <div class="container">
+        <h4 class="accessories__title">ACCESSORIES</h4>
+        <p class="gradient__text accessories__gradient-text">Personalize every experience</p>
+        <div class="accessories__items">
+          <article class="accessories__item">
+            <img class="accessories__items_img" src="./assets/images/personalize/case.png" alt="case">
+            <h3 class="accessories__items_title">Meta Quest 2 Carrying Case</h3>
+            <p class="accessories__items_text">Protect your system–at home or away.</p>
+            <p class="accessories__items_prise">$59.99 USD</p>
+            <button class="block-information__link-btn button-accessories">
+              <span href="#">BUY NOW</span>
+            </button>
+          </article>
+          <article class="accessories__item">
+            <img class="accessories__items_img" src="./assets/images/personalize/cable.png" alt="cable">
+            <h3 class="accessories__items_title">Link Cable</h3>
+            <p class="accessories__items_text">Harness the power of your PC with this premium fiber-optic cable.</p>
+            <p class="accessories__items_prise">$79.99 USD</p>
+            <button class="block-information__link-btn button-accessories">
+              <span href="#">BUY NOW</span>
+            </button>
+          </article>
+          <article class="accessories__item">
+            <img class="accessories__items_img" src="./assets/images/personalize/pack.png" alt="pack">
+            <h3 class="accessories__items_title">Meta Quest 2 Active Pack</h3>
+            <p class="accessories__items_text">A wipeable facial interface, wrist straps, and knuckle straps.</p>
+            <p class="accessories__items_prise">$69.99 USD</p>
+            <button class="block-information__link-btn button-accessories">
+              <span href="#">BUY NOW</span>
+            </button>
+          </article>
+          <article class="accessories__item">
+            <img class="accessories__items_img" src="./assets/images/personalize/cards.png" alt="cards">
+            <h3 class="accessories__items_title">Meta Quest Gift Cards</h3>
+            <p class="accessories__items_text">Redeemable on 350+ games and apps.</p>
+            <p class="accessories__items_prise">$15-50 USD</p>
+            <button class="block-information__link-btn button-accessories">
+              <span href="#">BUY NOW</span>
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="container">
+        <h3 class="contacts__title">Get news and updates</h3>
+        <div class="contacts__box">
+          <div class="contacts__form">
+            <form class="form">
+              <input class="form__input" type="text" placeholder="E-mail">
+              <button class="form__btn" type="submit">go</button>
+            </form>
+            <p class="form_text">
+              By signing up you agree to receive updates and marketing messages (e.g. email, social, etc.)
+              from Meta about Meta’s existing and future products and services.
+              You may withdraw your consent and unsubscribe at any time by clicking
+              the unsubscribe link included in our messages.
+              Your subscription is subject to the Terms and Privacy Policy.
+            </p>
+          </div>
+          <p class="contacts__box_text">oculusshop@gmail.com</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <nav class="nav footer__nav">
+        <ul class="nav__menu menu-footer">
+          <li class="nav__menu_item">
+            <a href="#" class="nav__menu_link">shop</a>
+          </li>
+          <li class="nav__menu_item">
+            <a href="#" class="nav__menu_link">games</a>
+          </li>
+          <li class="nav__menu_item">
+            <a href="#" class="nav__menu_link">metaverse</a>
+          </li>
+          <li class="nav__menu_item">
+            <a href="#" class="nav__menu_link">contact us</a>
+          </li>
+        </ul>
+        <img src="./assets/images/logo.svg" alt="Logo" class="logo nav__logo">
+        <div class="icons">
+          <a class="icons__item" href="https://www.youtube.com/" target="_blank">
+            <img src="./assets/images/icons/you tub.svg" alt="youtube">
+          </a>
+          <a class="icons__item" href="https://www.metacareers.com/" target="_blank">
+            <img src="./assets/images/icons/facebook.svg" alt="facebook">
+          </a>
+          <a class="icons__item" href="https://www.google.co.uk/" target="_blank">
+            <img src="./assets/images/icons/google.svg" alt="Google">
+          </a>
+        </div>
+      </nav>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
+
+
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/SxpnYsr_elo?si=aMTkhMRZK6Attqnc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe> -->
