@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Helvetica', sans-serif;
+  src: url('../assets/fonts/helvetica.woff2');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Helvetica-Bold', sans-serif;
+  src: url('../assets/fonts/helvetica-bold.woff2');
+  font-style: normal;
+  font-weight: 700;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  margin: 0 auto;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: "Helvetica", "Verdana", sans-serif;
+  @include font(1.6rem, 400, 1.8rem);
+  color: $color-primary;
+  @include media-mobile-big {
+    font-size: 1.4rem;
+  }
+}
+
+h1 {
+  @include font(9.6rem, 400, 11.1rem);
+  text-align: left;
+  margin-bottom: 10px;
+  @include media-tablet {
+    text-align: center;
+    font-size: clamp(4.6rem, 13cqi, 8.2rem);
+    line-height: clamp(6.5rem, 15cqi, 9.2rem);
+  }
+}
+
+h2 {
+  @include font(3.6rem, 400, 4.1rem);
+  text-transform: uppercase;
+  color: $color-brand;
+  @include media-tablet {
+    @include font(3.1rem, 400, 4rem);
+  }
+  @include media-mobile-big {
+    @include font(2.5rem, 400, 3.5rem);
+  }
+}
+
+h3 {
+  @include font(2.4rem, 400, 2.8rem);
+  text-align: left;
+  @include media-mobile-big {
+    @include font(1.6rem, 400, 1.8rem);
+  }
+}
+
+h4 {
+  text-transform: uppercase;
+  text-align: left;
+}

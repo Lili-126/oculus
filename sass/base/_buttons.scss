@@ -1,0 +1,89 @@
+.menu__btn-open {
+  display: none;
+  @include media-tablet {
+    display: block;
+  }
+}
+
+.btn {
+  background: linear-gradient($color-brand);
+  @include font(1.6rem, 700, 1.8rem);
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1px;
+  margin-bottom: 10px;
+  @media (max-width: 720px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.btn_buy,
+.btn_price {
+  display: inline-block;
+  padding: 20px 107px;
+  color: $color-white;
+  @include media-mobile-big {
+    padding: 15px 80px;
+  }
+}
+
+.btn_price {
+  background: $color-white;
+  color: $color-primary;
+}
+
+.tabs__btn-item {
+  margin: 0;
+  @include font(1.6rem, 700, 1.8rem);
+  font-family: "Helvetica", "Verdana", sans-serif;
+  color: $color-primary;
+  @media (max-width: 1250px) {
+    display: block;
+    margin-bottom: 10px;
+  }
+  @media (max-width: 530px) {
+    font-size: 1.4rem;
+    text-align: left;
+  }
+}
+
+.tabs__btn-item--active {
+  color: #070707;
+}
+
+.video__btn {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding: 17px 15px 17px 19px;
+  border-radius: 50%;
+  background-color: $color-white;
+}
+
+.promo__btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  @media (max-width: 720px) {
+    display: flex;
+  }
+}
+
+.promo__btn_price {
+  background: #fff;
+}
+
+.form__btn {
+  padding: 16px 14px;
+  background: $bg-button;
+  border: none;
+  border-radius: 25px;
+  @include font(1.6rem, 700, 1.8rem);
+  text-transform: uppercase;
+  color: $color-primary;
+  margin-bottom: 5px;
+  position: absolute;
+  right: 0;
+}
+
