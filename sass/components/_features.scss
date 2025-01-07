@@ -1,0 +1,130 @@
+.features {
+  padding-top: 109px;
+  @include media-mobile-big {
+    padding-top: 70px;
+  }
+}
+
+.wrapper__text {
+  display: flex;
+  gap: 0 20px;
+  container-type: inline-size;
+  margin-bottom: 20px;
+  @media (max-width: 1350px) {
+    flex-direction: column;
+    gap: 15px 0;
+  }
+}
+
+.features__title {
+  flex-basis: 24%;
+}
+
+.gradient__text {
+  max-width: 330px;
+  @include font(3.6rem, 400, 4.1rem);
+  text-transform: uppercase;
+  @extend %text-gradient;
+  @media (max-width: 1200px) {
+    @include font(2.8rem, 400, 3.1rem);
+    max-width: 290px;
+  }
+  @include media-tablet {
+    @include font(2rem, 400, 2.8rem);
+    max-width: 200px;
+  }
+}
+
+.tabs {
+  @include grid(22% auto);
+  @media (max-width: 970px) {
+    @include grid(auto);
+    justify-content: space-between;
+    row-gap: 20px;
+  }
+  @include media-tablet {
+    justify-content: normal;
+  }
+}
+
+.tabs__btn {
+  @include flex-direction(start, start);
+  row-gap: 20px;
+  @media (max-width: 970px) {
+    display: block;
+    column-count: 3;
+  }
+    @include media-tablet {
+    column-count: 2;
+  }
+}
+
+.tabs__content-item {
+  display: none;
+}
+
+.tabs__content-item--active {
+  @include grid(auto 30%);
+  column-gap: 30px;
+    & img {
+      place-self: start end; // выровняли дочерний элемент в grid-сетке по правому краю
+      height: 100%;
+  }
+  @include media-tablet {
+    display: block;
+    margin: 0 auto;
+    & .content-item__img {
+      display: none;
+    }
+  }
+}
+
+.tabs__content-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 12px;
+}
+
+
+.video-one {
+  background: url(../assets/images/features/world.png);
+}
+
+.video-two {
+  background: url(../assets/images/features/controls.jpg);
+}
+
+.video-three {
+  background: url(../assets/images/features/6.jpg);
+}
+
+.video-four {
+  background: url(../assets/images/features/7.jpg);
+}
+
+.video-five {
+  background: url(../assets/images/features/5.jpg);
+}
+
+.video-six {
+  background: url(../assets/images/features/3.jpg);
+}
+
+.video {
+  padding: 25% 31px 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  @include flex-direction;
+  row-gap: 10px;
+  color: $color-white;
+  @include font(1.3rem, 400, 1.5rem);
+  @include media-tablet {
+    padding-top: 35%;
+  }
+}
+
+
+
+

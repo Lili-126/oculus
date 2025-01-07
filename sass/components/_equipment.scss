@@ -1,0 +1,126 @@
+.equipment {
+  padding-top: 110px;
+}
+
+.equipment__title {
+  margin-bottom: 50px;
+  @include media-mobile-big {
+    margin-bottom: 25px;
+  }
+}
+
+.equipment__title,
+.equipment__gradient-text {
+  @include media-mobile-big {
+    text-align: start;
+  }
+}
+
+.equipment__box_text {
+  @include media-mobile-big {
+    text-align: center;
+  }
+}
+
+
+.equipment__box {
+  @include grid(2fr 1fr  1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px 20px;
+  @media (max-width: 1250px) {
+    @include grid(1fr  1fr 1fr);
+    gap: 20px 20px;
+  }
+  @include media-tablet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px;
+    gap: 10px 10px;
+  }
+  @include media-mobile-big {
+    @include grid(1fr);
+  }
+}
+
+.box__item_one {
+  grid-row: 1/-1;
+  @media (max-width: 1250px) {
+    grid-row: 1;
+    @include media-tablet {
+      grid-column: 2 / 1;
+      grid-row: 2;
+    }
+    & img {
+      max-height: 220px;
+    }
+  }
+  @include media-mobile-big {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+
+.box__item_two {
+    @include media-tablet {
+      grid-column: 2 / 2;
+      grid-row: 2;
+    }
+    @include media-mobile-big {
+      grid-column: 1;
+      grid-row: 3;
+    }
+}
+
+.box__item_three {
+  @media (max-width: 1250px) {
+    grid-column: 1 / 1;
+    grid-row: 1;
+    width: 180px;
+    place-self: start;
+  }
+  @include media-tablet {
+    grid-column: 1 / 2;
+  }
+  @include media-mobile-big {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
+
+.box__item_four {
+  @media (max-width: 1250px) {
+    grid-column: 2 / 2;
+    grid-row: 2;
+  }
+  @include media-tablet {
+    grid-column: 1 / 1;
+    grid-row: 3;
+  }
+  @include media-mobile-big {
+    grid-column: 1;
+    grid-row: 4;
+  }
+}
+
+.box__item_five {
+  @include media-tablet {
+    grid-row: 3;
+  }
+  @include media-mobile-big {
+    grid-column: 1;
+    grid-row: 5;
+  }
+}
+
+.equipment__box_img{
+  margin-bottom: 10px;
+  @include media-mobile-big {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+
+.equipment__gradient-text {
+  margin-bottom: 170px;
+}
