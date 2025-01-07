@@ -1,0 +1,26 @@
+//abstracts
+@import "abstracts/constants";
+@import "abstracts/mixins";
+@import "abstracts/placeholders";
+
+//babe
+@import "base/base";
+@import "base/buttons";
+@import "base/modal-video";
+@import "base/link-btn";
+
+//layout
+@import "layout/container";
+
+//components
+@import "components/header";
+@import "components/top";
+@import "components/features";
+@import "components/games";
+@import "components/promo";
+@import "components/equipment";
+@import "components/show-metaverse";
+@import "components/accessories";
+@import "components/contacts";
+@import "components/footer";
+
