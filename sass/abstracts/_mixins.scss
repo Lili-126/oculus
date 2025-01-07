@@ -1,0 +1,36 @@
+@mixin font ($size, $weight, $height, $style: normal) {
+  font-style: $style;
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $height;
+}
+
+@mixin flex ($content: flex-start, $item: stretch) {
+  display: flex;
+  justify-content: $content;
+  align-items: $item;
+}
+
+@mixin flex-direction ($content: flex-start, $item: stretch) {
+  display: flex;
+  flex-direction: column;
+  justify-content: $content;
+  align-items: $item;
+}
+
+@mixin grid ($columns) {
+  display: grid;
+  grid-template-columns: $columns;
+}
+
+@mixin media-laptop {
+  @media screen and (max-width: $content-width) { @content; }
+}
+
+@mixin media-tablet {
+  @media screen and (max-width: $tablet-width) { @content; }
+}
+
+@mixin media-mobile-big {
+  @media screen and (max-width: $mobile-big-width) { @content; }
+}

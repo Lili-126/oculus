@@ -1,0 +1,35 @@
+.footer {
+  padding-top: 100px;
+}
+
+.footer__nav {
+  padding: 30px 0;
+  @media (max-width: 1090px) {
+    grid-template-columns: 100%;
+    justify-items: center;
+    row-gap: 30px;
+  }
+}
+
+.menu-footer {
+  @include media-mobile-big {
+    column-gap: 9px;
+  }
+}
+
+.icons {
+  text-align: end;
+  @media (max-width: 1090px) {
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  }
+}
+
+.icons__item {
+  margin-left: 20px;
+  @media (max-width: 1090px) {
+    margin-left: 0;
+  }
+}
+

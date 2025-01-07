@@ -1,0 +1,33 @@
+.top {
+  background-image: url(../assets/images/backgrounds/bg-top.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center; // пшзиционирование и выравнивание фона
+  padding-top: clamp(70px, 20cqi, 240px);
+  padding-bottom: clamp(120px, 45cqi, 445px);
+  @media (max-width: 1200px) {
+    background-position: revert;
+  }
+  @include media-tablet {
+    background-image: url(../assets/images/backgrounds/bg-top-small.jpg);
+    text-align: center;
+  }
+}
+
+.top__subtitle {
+  margin-bottom: 5px;
+  text-transform: none;
+  color: $color-primary;
+}
+
+.top__text {
+  margin-bottom: 50px;
+  font-size: 1.3rem;
+}
+
+.top__text_bottom {
+  margin-bottom: 0;
+}
+
+
+

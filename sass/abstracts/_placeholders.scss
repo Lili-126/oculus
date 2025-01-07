@@ -1,0 +1,12 @@
+%text-gradient {
+  background: linear-gradient($color-brand); // градиент для текста
+  -webkit-background-clip: text;   // градиент для текста
+  -webkit-text-fill-color: transparent;  // градиент для текста
+}
+
+%border-gradient {
+  border: 2px solid transparent;  //градиент для border
+  border-image: linear-gradient($color-brand); //градиент для border
+  border-image-slice: 1; //градиент для borders
+}
+
