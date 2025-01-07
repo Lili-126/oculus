@@ -1,0 +1,12 @@
+<svg width="25.000000" height="25.000000" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<pattern id="pattern_2_10" patternContentUnits="objectBoundingBox" width="1.000000" height="1.000000">
+			<use xlink:href="#image2_1_0" transform="matrix(0.03125,0,0,0.03125,0,0)"/>
+		</pattern>
+		<image id="image2_1_0" width="25.000000" height="25.000000" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAABPlJREFUWIXVl2tsFFUUx3939tF99rEthUJLt4A2EaE8KwZFCFIFQSEmGIgxfIGojYiGD75FomAwEBVEkQiCUQQTg4E0mABSghIUSwsRUkILtbWQQltKS7szOzPXDzPbbksf0IQaT3Jz7+699/x/55w7dzLwf7adK0emb305Z/B/pS/+Ll73ecWR97cBrgFX37N62hj90j41enmf9tGKMQ8OtL5y7eRne2XNz1LWHZDVf645AHj65ag/m4q3LpqeMiT7Scwo6BqZ2bkFu9bPKBgoANe4yVPXKtIUGBpENdClmDX7sVVA8K4DnP5+6cLE1KH56BEwVAtA00hNyxp/cMdTiwFx1wAKxuIfdX/ee+gR2gEMFTQVNI38KVNeHzWEtLsFIDZ9sLzQ60scSbQN9DYLQlchqoKqEgyEsndtXFwIOG/baS9g7k+WDMp65NG5E1LSBo33BgJ5yamhh10Opx9dB9MAGefFAbggqkVaG/5pONZyo7n0Wn39qcOHikre2N1cDaiA2ROAe/uL4fsmTp0+LikUmhDw+/K8Ps9obyApFSRIiaUmwTTBMOz/uniK5dO0lyOQElpvNNXfjLT91RZRy643Xi89V3bs1KINVWcBVQBUb01eNSx/2buCAJgCFAcIpUO0HYIu464mO3WdegWrMC6AFs7u/+LD0Sub33QCXKy7/kdG4xbVMXhJAoYfNCyQ+AKJONGeCie7jDuVSEIC4GhFP/F12/Gy5hKsUGH7YSqn5ah12YMuPK6k3KsgJJi61aQOxPXC7ntq8eulvd6lg9cAdyvmye+00jONz83dxH5Ac8R4dx6hbMaItqbhoaoCkTJSgNnhpDvh7kC6E3fq4NXBo0LZj/qVyqtLct9mDxAF6+zGzNzxCyXzc2+6MgKXHyI1LDo5i4mKHgC6y5RTB48OvihmeZG8WnGlMONVdsQXKx4AwNhyiN8Wjm5OTvPV54vUYZZDs0vkt0QfBbMZjCYwW0BGwGmAV4JPh+pi2XC+5rX0QjZ1OSk9HidvxTo2jBiX8zyZE0E1wYjbIQCzFSJVoF4Bvcl6PGMHTwF8QMgFEReN5a1rQ8/yFr3cA92Z6+Zm1vvGTn0Jb7LlWGBFFzkPak3nYGLipp3XIOCFxnNsDD3DK3SEcNsAAM6Wo7PP+r3RexAGaFWgXgJhduwUceLxGQhCi1BqghPMPKChR4E+ABS3RyRi1IJaCUSsHSKuxSwWveyYc3tFIn28b3qdfOKhJL9D/T0d7QIoqiUeu83cdkuwf8eaE6sEAtxuIzhzclJivwFWLBBhhRaBQ1pOY+IerEMWAPz2OAYSB4BAPD1PzepNo9cSDB9qhHFIEAY4ZUfkCXYfe4gNrOs71gzay5OTbWbRcVLuDMCboOdAFFwmeO3IE2zhGqDcXpgLZNpzqg0BoEBKipnZbwCPRwuTYFqp9lkOuQxUIKsuUbq3hG0+N+qcWpYOG8wkchHtIIblPZgohto7b7kD+gRwec0wAax014FZi3GhkuPfHuTL1fs4AlzDutN/2LiI6XOusjw8nGlKDg4yABd4/TIGcMfmaClWyuRRpPYT2umPKXphJvOBDDvGrneIAgTfmc/M8k/ZGy1ClaXI2hOOX+383bG5b3zFxZNr2L1gErOAdDsXfZkAfMtm8MCZzXxTu0cpBZL6A6DMG0sOEKJ/334C8EwJE6afX00DYv8CavYbXCnrRZMAAAAASUVORK5CYII="/>
+	</defs>
+	<rect id="star_32" width="25.000000" height="25.000000" fill="url(#pattern_2_10)" fill-opacity="1.000000"/>
+</svg>
